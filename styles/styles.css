@@ -82,6 +82,11 @@ section > div {
   align-items: center;
 }
 
+.toggle-header:hover {
+  color: #a941da;
+  cursor: pointer;
+}
+
 .toggle-header b {
   width: 85%;
   font-size: 0.9rem;
