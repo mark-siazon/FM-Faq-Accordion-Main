@@ -112,4 +112,5 @@ section > div {
   }
   
   h1{ padding-left: 3.25rem;}
+  .toggle-header b { font-size: 1rem;}
 }
