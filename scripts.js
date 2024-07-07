@@ -16,10 +16,13 @@ document.addEventListener('DOMContentLoaded', () => {
         // Show the info content
         info.classList.remove('toggle-hidden');
         icon.src = 'assets/images/icon-minus.svg'; // Change icon to minus
+        toggle.style.color = '#a941da';  // Change color when in focus state
+        
       } else {
         // Hide the info content
-        info.classList.add('toggle-hidden');
+        info.classList.add('toggle-hidden');  // Return color when not in focus state
         icon.src = 'assets/images/icon-plus.svg'; // Change icon back to plus
+        toggle.style.color = '#000000';
       }
     });
   });
